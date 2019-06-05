@@ -1,0 +1,15 @@
+[package]
+name = "trash"
+version = "0.1.0"
+authors = ["Alex Gurganus <gurgalex@iastate.edu>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+rust-ini = "0.13"
+xdg = "2.2"
+fs_extra = "1.1.0"
+percent-encoding = "1.0.1"
+
+[dev-dependencies]
+tempfile = "3.0.8"
